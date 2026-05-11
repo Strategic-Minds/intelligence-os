@@ -1,0 +1,32 @@
+{
+  "triggers": [
+    {
+      "name": "auto_build_step",
+      "description": "Executes Auto Build scripts for workflow steps.",
+      "type": "runtime_trigger",
+      "source": "local_repo",
+      "fallback": "file_based_simulation"
+    },
+    {
+      "name": "repo_sync_trigger",
+      "description": "Syncs all connected GitHub repositories.",
+      "type": "sync_trigger",
+      "source": "github_api",
+      "fallback": "file_based_sync"
+    },
+    {
+      "name": "drive_sync_trigger",
+      "description": "Syncs Drive assets for workflow steps.",
+      "type": "sync_trigger",
+      "source": "drive_files",
+      "fallback": "local_file_simulation"
+    },
+    {
+      "name": "hourly_status_email",
+      "description": "Sends hourly system status reports.",
+      "type": "notification",
+      "source": "email_service",
+      "fallback": "log_only"
+    }
+  ]
+}
