@@ -1,0 +1,11 @@
+{
+  "repos": [
+    "Strategic-Minds/Bronx",
+    "Strategic-Minds/Epoxy-Changes-Lives",
+    "Strategic-Minds/Shopify-Workflow",
+    "Strategic-Minds/Intelligence-OS",
+    "Strategic-Minds/Admin-Command"
+  ],
+  "sync_enabled": true,
+  "fallback_mode": "local_copy"
+}
