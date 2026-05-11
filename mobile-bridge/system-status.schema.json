@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Intelligence OS Mobile Bridge System Status",
+  "type": "object",
+  "properties": {
+    "mobile_bridge_online": {"type": "boolean"},
+    "auto_build_active": {"type": "boolean"},
+    "repo_sync_status": {"type": "string"},
+    "drive_sync_status": {"type": "string"},
+    "last_validation": {"type": "string", "format": "date-time"},
+    "last_trigger_run": {"type": "string", "format": "date-time"},
+    "projects_status": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {"type": "string"}
+      }
+    }
+  },
+  "required": ["mobile_bridge_online", "auto_build_active", "repo_sync_status", "drive_sync_status"]
+}
