@@ -1,0 +1,16 @@
+<svg width="1672" height="941" viewBox="0 0 1672 941" xmlns="http://www.w3.org/2000/svg">
+<rect width="1672" height="941" fill="#000"/>
+<rect x="14" y="94" width="250" height="782" rx="18" fill="#050505" stroke="#b8b8b8" stroke-opacity=".45"/>
+<rect x="280" y="94" width="1050" height="325" rx="18" fill="#050505" stroke="#b8b8b8" stroke-opacity=".45"/>
+<rect x="1344" y="94" width="314" height="325" rx="18" fill="#050505" stroke="#b8b8b8" stroke-opacity=".45"/>
+<rect x="280" y="436" width="1050" height="280" rx="18" fill="#050505" stroke="#b8b8b8" stroke-opacity=".45"/>
+<rect x="280" y="735" width="1050" height="140" rx="18" fill="#050505" stroke="#b8b8b8" stroke-opacity=".45" stroke-dasharray="8 8"/>
+<text x="54" y="132" font-family="Arial" font-size="24" font-weight="700" fill="#fff">INTELLIGENCE OS</text>
+<text x="300" y="132" font-family="Arial" font-size="30" font-weight="700" fill="#fff">Approved Dashboard Direction</text>
+<text x="300" y="170" font-family="Arial" font-size="14" fill="#aaa">black background • satin black cards • metallic silver borders • electric-blue active state</text>
+<g fill="#050505" stroke="#b8b8b8" stroke-opacity=".5">
+<rect x="305" y="210" width="84" height="170" rx="10"/><rect x="405" y="210" width="84" height="170" rx="10"/><rect x="505" y="210" width="84" height="170" rx="10"/><rect x="605" y="210" width="84" height="170" rx="10"/><rect x="705" y="210" width="84" height="170" rx="10"/><rect x="805" y="210" width="84" height="170" rx="10"/><rect x="905" y="210" width="84" height="170" rx="10"/><rect x="1005" y="210" width="84" height="170" rx="10"/><rect x="1105" y="210" width="84" height="170" rx="10"/><rect x="1205" y="210" width="84" height="170" rx="10"/>
+</g>
+<circle cx="750" cy="232" r="7" fill="#22c55e"/><circle cx="850" cy="232" r="7" fill="#ef4444"/>
+<text x="760" y="820" font-family="Arial" font-size="48" fill="#1677ff" text-anchor="middle">+</text>
+</svg>
