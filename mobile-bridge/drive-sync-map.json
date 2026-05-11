@@ -1,0 +1,40 @@
+{
+  "drive_sync": {
+    "enabled": true,
+    "mode": "best_effort",
+    "fallback_mode": "local_file_simulation",
+    "canonical_sources": [
+      {
+        "title": "00 - SHOPIFY WORKFLOW Command Center",
+        "type": "google_sheet",
+        "role": "canonical_workflow_system",
+        "status": "DISCOVERED"
+      },
+      {
+        "title": "Strategic_Minds_Enterprise_Workflow_Intelligence_OS_v5.xlsx",
+        "type": "spreadsheet",
+        "role": "intelligence_os_source",
+        "status": "DISCOVERED"
+      },
+      {
+        "title": "SMA_Enterprise_AutoBuild_OS_Ceiling_v2.xlsx",
+        "type": "spreadsheet",
+        "role": "autobuild_ceiling_source",
+        "status": "DISCOVERED"
+      },
+      {
+        "title": "SMA One-and-Done AutoBuild Template System",
+        "type": "spreadsheet",
+        "role": "template_source",
+        "status": "DISCOVERED"
+      }
+    ],
+    "sync_targets": [
+      "logs/system-runtime-log.md",
+      "logs/validation-log.md",
+      "logs/trigger-log.md",
+      "mobile-bridge/system-status.schema.json"
+    ],
+    "missing_google_api_behavior": "PENDING_SECRET_USE_DISCOVERED_DRIVE_METADATA_AND_LOCAL_REPO_FILES"
+  }
+}
